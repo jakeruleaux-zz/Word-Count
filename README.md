@@ -8,6 +8,35 @@ Description
 
 The Word Count App allows a user to enter a word and then a phrase, sentence, paragraph, etc. The program will count the frequency of the word entered in the phrase, etc. The program will return to the user the number of times the word entered occurs in the entered phrase, etc.
 
+Specs for Word Count App
+
+
+* The program will allow a user to enter a word and a phrase, sentence, paragraph, etc. The program will compare the word entered to the phrase, etc. and count the frequency of occurrences of the word in the phrase, etc. The program will return a numerical value for the amount of times the word occurs in the phrase, etc.
+
+The program will:
+
+  *Allow a user to input a search word in a Twig file;
+    *input: 'word'
+  *The program will convert inputted search word into lowercase to prevent case sensitivity errors;
+    *input: 'Word'
+    *output: 'word'
+  *The program will allow the user to input a series of words to search through in a Twig file;
+    *input:'These are words'
+  *The program will convert inputted phrase into lowercase to prevent case sensitivity errors.
+    *input: 'These Are Words'
+    *output: 'these are words'
+  *The program will count the frequency of the inputted search word in inputted phrase;
+    *input: 'These are words'
+    *output: 'these are words'
+  *The program will display on a separate Twig file the number of times the inputted search word occurs in the inputted phrase (key word 'word');
+    *input: 'these are words'
+    *output: '1'
+  *The program will identify multiple instances of the same word and return a total of all words in the inputted phrase, etc. (key word 'word');
+    *input: 'this is a word and here is another word'
+    *output: '2'
+
+
+
 Setup/Installation Requirements
 
 Open GitHub site on your browser: https://github.com/jakeruleaux/Word-Count

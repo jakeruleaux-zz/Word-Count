@@ -14,12 +14,12 @@
             // return $lower_phrase;
 
             $word_array = [];
-            // var_dump($word_array);
-            foreach ($explode_phrase as $phrase)
+            var_dump($word_array);
+            foreach ($explode_phrase as $phrase => $word)
              {
-                if ($phrase == $lower_phrase) {
-                    $lower_word = "1";
-                    array_push($word_array, $lower_word);
+                if ($explode_phrase[$phrase] == $lower_word) {
+
+                    array_push($word_array, "1");
                 }
 
             }
