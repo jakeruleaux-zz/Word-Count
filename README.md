@@ -10,7 +10,7 @@ The Word Count App allows a user to enter a word and then a phrase, sentence, pa
 
 Setup/Installation Requirements
 
-Open GitHub site on your browser: https://github.com/jakeruleaux/php-address-book/tree/master
+Open GitHub site on your browser: https://github.com/jakeruleaux/Word-Count
 Select the dropdown (green box) "Clone or download"
 Copy the link for the GitHub repository
 Open Terminal on your computer
@@ -19,7 +19,7 @@ type 'cd desktop' and press enter.
 type 'git clone' then copy the repository link and press enter.
 type 'cd php-address-book' to access the path on your computer
 type 'php -S localhost:8000' to open local server.
-in your Address Bar type 'localhost:8000/php-address-book' to view app
+in your Address Bar type 'localhost:8000/WordCount' to view app
 Known Bugs
 
 No known bugs in current version.
