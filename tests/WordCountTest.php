@@ -6,10 +6,10 @@
         function testWordCounter()
         {
             $test_word_count = new RepeatCounter;
-            $lower_word = "test";
             $lower_phrase = "this is a test";
+            $lower_word = "test";
 
-            $result = $test_word_count->countRepeats($lower_word, $lower_phrase);
+            $result = $test_word_count->countRepeats($lower_phrase, $lower_word);
 
             $this->assertEquals("1", $result);
         }
