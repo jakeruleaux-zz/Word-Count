@@ -12,14 +12,14 @@
             $lower_phrase = strtolower($input_phrase);
             return $lower_phrase;
 
-            // $word_array = [];
+            $word_array = [];
             foreach ($lower_phrase as $word) {
                 if ($lower_phrase == $word) {
-                    return $word;
+                    array_push($word_array, $word);
                 }
 
             }
-
+            return $word_array;
         }
 
 
