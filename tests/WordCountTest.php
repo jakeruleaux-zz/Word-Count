@@ -5,26 +5,26 @@
         function testWordLower()
         {
             $test_word_lower= new RepeatCounter;
-            $input = "THIS";
+            $input = "WORD";
             $result = $test_word_lower->wordLower($input);
-            $this->assertEquals("this", $result);
+            $this->assertEquals("word", $result);
         }
 
         function testphraseLower()
         {
             $test_phrase_lower= new RepeatCounter;
             $input = "THIS IS A TEST";
-            $result = $test_phrase_lower->phraseLower($input);
+            $result = $test_phrase_lower->countRepeats($input);
             $this->assertEquals("this is a test", $result);
         }
 
-        // function testWordCount()
-        // {
-        //     $test_word_count= new RepeatCounter;
-        //     $input = "this is a test";
-        //     $result = $test_word_count->countRepeats($input);
-        //     $this->assertEquals("4", $result);
-        // }
+        function testWordCount()
+        {
+            $test_word_count= new RepeatCounter;
+            $input = "this is a test or test";
+            $result = $test_word_count->countRepeats($input);
+            $this->assertEquals("2", $result);
+        }
 
 
 

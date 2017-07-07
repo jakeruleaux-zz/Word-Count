@@ -3,29 +3,29 @@
     class RepeatCounter
     {
 
-        function wordLower($input)
+        function wordLower($input_word)
         {
-            $lower_word = strtolower($input);
+            $lower_word = strtolower($input_word);
             return $lower_word;
         }
-        function phraseLower($input)
-        {
-            $lower_phrase = strtolower($input);
-            return $lower_phrase;
-        }
+        // function phraseLower($input_phrase)
+        // {
+        // }
 
-        function countRepeats($input)
+        function countRepeats($input_phrase)
         {
+
             // $phrase_arr = [];
             // var_dump($phrase_arr);
-            // array_push($phrase_arr, $lower_word);
-
+            $lower_phrase = strtolower($input_phrase);
             // array_push($phrase_arr, $lower_phrase);
+            // return $phrase_arr;
             // $occurrences = (array_count_values($phrase_arr));
-            // return $occurrences;
             // var_dump($occurrences);
-            // $test = implode(" ", $phrase_arr);
-            // return $test;
+            // $test = implode(" ", $occurrences);
+            $test = substr_count($lower_phrase, 'test');
+            return $test;
+            // return $occurrences;
         }
 
 
