@@ -10,6 +10,14 @@
             $this->assertEquals("this", $result);
         }
 
+        function testphraseLower()
+        {
+            $test_phrase_lower= new RepeatCounter;
+            $input = "THIS IS A TEST";
+            $result = $test_phrase_lower->countRepeats($input);
+            $this->assertEquals("this is a test", $result);
+        }
+
 
     }
 ?>
