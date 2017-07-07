@@ -36,5 +36,16 @@
             $this->assertEquals("4", $result);
         }
 
+        function testWordCounterFragments()
+        {
+            $test_word_count_fragments = new RepeatCounter;
+            $lower_phrase = "this tester is tests a test or test";
+            $lower_word = "test";
+
+            $result = $test_word_count_fragments->countRepeats($lower_phrase, $lower_word);
+
+            $this->assertEquals("2", $result);
+        }
+
     }
 ?>
