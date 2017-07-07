@@ -10,6 +10,7 @@
             $lower_word = strtolower($input_word);
             return $lower_word;
             $lower_phrase = strtolower($input_phrase);
+            $explode_phrase = explode(" ", $lower_phrase);
             // return $lower_phrase;
 
             $word_array = [];
