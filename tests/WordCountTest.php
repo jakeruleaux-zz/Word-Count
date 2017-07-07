@@ -28,12 +28,12 @@
         function testWordCounterThree()
         {
             $test_word_count_three = new RepeatCounter;
-            $lower_phrase = "this is a test or test";
+            $lower_phrase = "this test is test a test or test";
             $lower_word = "test";
 
             $result = $test_word_count_three->countRepeats($lower_phrase, $lower_word);
 
-            $this->assertEquals("3", $result);
+            $this->assertEquals("4", $result);
         }
 
     }
