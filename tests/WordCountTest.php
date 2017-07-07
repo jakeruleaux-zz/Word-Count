@@ -18,6 +18,15 @@
             $this->assertEquals("this is a test", $result);
         }
 
+        function testWordCount()
+        {
+            $test_word_count= new RepeatCounter;
+            $input = "word word";
+            $result = $test_word_count->countRepeats($input);
+            $this->assertEquals("2", $result);
+        }
+
+
 
     }
 ?>
