@@ -27,8 +27,8 @@ The program will:
     * output: 'these are words'
   * The program will ignore fragments of words that are similar to the inputted word (key word 'word');
      * input: 'these words, wordy, world are almost a word'
-     * output: '1'
-  * The program will count the frequency of the inputted search word in inputted phrase;
+     * output: 'word'
+  * The program will count the frequency of the inputted search words in inputted phrase (key word 'word');
     * input: 'These are words'
     * output: 'these are words'
   * The program will display on a separate Twig file the number of times the inputted search word occurs in the inputted phrase (key word 'word');
@@ -51,7 +51,7 @@ type 'cd desktop' and press enter.
 type 'git clone' then copy the repository link and press enter.
 type 'cd php-address-book' to access the path on your computer
 type 'php -S localhost:8000' to open local server.
-in your Address Bar type 'localhost:8000/WordCount' to view app
+in your Address Bar type 'localhost:8000/Word-Count' to view app
 
 Known Bugs
 
