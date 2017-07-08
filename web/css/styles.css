@@ -1,0 +1,14 @@
+body {
+  background-image: url("/../img/word.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgb(77, 38, 0);
+}
+
+p {
+  font-size: 24px;
+}
