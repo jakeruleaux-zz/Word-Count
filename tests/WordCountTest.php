@@ -3,6 +3,18 @@
     class RepeatCounterTest extends PHPUnit_Framework_TestCase
     {
 
+        function testWordLower()
+        {
+          $test_word_lower = new RepeatCounter;
+          $lower_phrase = "This Is A Test";
+          $lower_word = "Test";
+          // $lower_phrase = "This Is A Test";
+
+          $result = $test_word_lower->countRepeats($lower_phrase, $lower_word);
+
+          $this->assertEquals("this is a test", "test", $result);
+        }
+
         function testWordCounter()
         {
             $test_word_count = new RepeatCounter;
