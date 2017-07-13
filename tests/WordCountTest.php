@@ -26,13 +26,13 @@
             $this->assertEquals("1", $result);
         }
 
-        function testWordCounterTwo()
+        function testWordCounterCase()
         {
-            $test_word_count_two = new RepeatCounter;
-            $lower_phrase = "this is a test or test";
+            $test_word_count_case = new RepeatCounter;
+            $lower_phrase = "This iS a Test or test";
             $lower_word = "test";
 
-            $result = $test_word_count_two->countRepeats($lower_phrase, $lower_word);
+            $result = $test_word_count_case->countRepeats($lower_phrase, $lower_word);
 
             $this->assertEquals("2", $result);
         }

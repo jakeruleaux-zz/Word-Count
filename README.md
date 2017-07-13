@@ -23,6 +23,10 @@ The program will:
   * inputted search word: 'word'
   * inputted phrase: 'this is a word'
   * output: '1'  
+* The program will identify the inputted search word in the phrase, etc. despite case variation and return a count value.
+  * inputted search word: 'word'
+  * inputted phrase: 'The Word'
+  * output: '1'
 * The program will count the frequency of the inputted search word in inputted phrase, etc.
   * inputted search word: 'word'
   * inputted phrase: 'this is a word and this is a word too'
