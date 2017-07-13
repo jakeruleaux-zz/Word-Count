@@ -15,11 +15,22 @@ Specs for Word Count App
 
 The program will:
 
-
-* The program will count the frequency of the inputted search words in inputted phrase (key word 'word');
-  * The program will ignore fragments of words that are similar to the inputted word (key word 'word');
-     * input: 'these words, wordy, world are almost a word'
-     * output: 'word'
+* The program will identify an inputted search word and compare it to an inputted phrase, sentence, etc. If there is no match of the search word in the phrase an error will occur.
+  * inputted search word: 'word'
+  * inputted phrase: 'these are plums'
+  * output: error
+* The program will identify a single occurrence of an inputted search word in an inputted phrase, etc. and return a value of one.
+  * inputted search word: 'word'
+  * inputted phrase: 'this is a word'
+  * output: '1'  
+* The program will count the frequency of the inputted search word in inputted phrase, etc.
+  * inputted search word: 'word'
+  * inputted phrase: 'this is a word and this is a word too'
+  * output: '2'
+* The program will ignore fragments of words that are similar to the inputted search word within the phrase and count only true matches.
+  * inputted search word: 'word'
+  * input_phrase: 'these wordy word are almost world wordiness of word'
+  * output: '1'
 
 
 
