@@ -15,28 +15,11 @@ Specs for Word Count App
 
 The program will:
 
-  * Allow a user to input a search word in a Twig file;
-    * input: 'word'
-  * The program will convert inputted search word into lowercase to prevent case sensitivity errors;
-    * input: 'Word'
-    * output: 'word'
-  * The program will allow the user to input a series of words to search through in a Twig file;
-    * input:'These are words'
-  * The program will convert inputted phrase into lowercase to prevent case sensitivity errors.
-    * input: 'These Are Words'
-    * output: 'these are words'
+
+* The program will count the frequency of the inputted search words in inputted phrase (key word 'word');
   * The program will ignore fragments of words that are similar to the inputted word (key word 'word');
      * input: 'these words, wordy, world are almost a word'
      * output: 'word'
-  * The program will count the frequency of the inputted search words in inputted phrase (key word 'word');
-    * input: 'These are words'
-    * output: 'these are words'
-  * The program will display on a separate Twig file the number of times the inputted search word occurs in the inputted phrase (key word 'word');
-    * input: 'these are words'
-    * output: '1'
-  * The program will identify multiple instances of the same word and return a total of all words in the inputted phrase, etc. (key word 'word');
-    * input: 'this is a word and here is another word'
-    * output: '2'
 
 
 

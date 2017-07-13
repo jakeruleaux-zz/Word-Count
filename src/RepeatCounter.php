@@ -13,9 +13,7 @@
             {
                 if ($phrase == $lower_word ) {
                     array_push($word_array, $phrase);
-
                 }
-
             }
             $word_total = count($word_array);
             return $word_total;
